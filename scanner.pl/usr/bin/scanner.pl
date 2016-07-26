@@ -1,7 +1,7 @@
 #!/usr/bin/perl
 use strict;
 use warnings;
-open (my $f, "<","hosts_to_scan.txt");
+open (my $f, "<","hosts2scan");
 while (my $line = <$f>){
   my @list=split(',',$line);
   my $host=$list[0];
